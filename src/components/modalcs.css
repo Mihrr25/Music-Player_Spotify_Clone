@@ -1,0 +1,73 @@
+
+.modal-content {
+    background-color:  #232325;;
+    padding: 20px;  
+    color: white;
+    width: 60%;
+    max-width: 400px;
+    position: fixed;
+    top: 50%; /* Center vertically by moving the top edge to 50% */
+    left: 50%; /* Center horizontally by moving the left edge to 50% */
+    transform: translate(-50%, -50%);
+ 
+    h2{
+        padding-top: 8px;
+    }
+}
+
+.close-btn-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.playlist-options {
+    max-height: 300px;
+    overflow-y: auto; 
+}
+
+.option {
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.option:hover {
+    background-color: #4f4f53; 
+}
+.close-btn-top-1:hover{
+    cursor: pointer;
+}
+.modal-content input{
+    padding: 0px 2px 0px 10px;
+    width: 100%;
+    font-size: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    margin: 0px 20px;
+}
+.modal-content input:focus{
+     border: 1px solid #ccc;
+     outline: none;
+     box-shadow: none;
+}
+.myForm{
+    display: flex;
+    width: 100%;
+}
+.sBtn{
+    background-color: rgba(0,0,0,0);
+    padding: 0;;
+    border: none;
+}
+.sBtn:hover{
+    cursor: pointer;
+}
+.Pexist{
+    text-align: center;
+    color: rgb(230, 57, 57);
+    font-size: 0.9rem;
+    font-weight: 400;
+}
